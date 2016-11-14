@@ -3,6 +3,7 @@ var less = require('gulp-less');
 var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
 var uglify = require('gulp-uglify');
+var htmlmin = require('gulp-htmlmin');
 var injectfile = require("gulp-inject-file");
 var pkg = require('./package.json');
 
@@ -12,6 +13,16 @@ gulp.task('less', function() {
         .pipe(less())
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest('dist/css'))
+});
+
+// Minify HTML
+gulp.task('minify-html', function() {
+  return gulp.src('./*.html')
+    .pipe(injectfile({
+      pattern: '<!--\\s*inject:<filename>-->'
+    }))
+    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(gulp.dest('dist'));
 });
 
 // Minify compiled CSS
@@ -28,15 +39,6 @@ gulp.task('minify-js', function() {
         .pipe(uglify())
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest('dist/js'))
-});
-
-gulp.task('inject', function () {
-  return gulp.src('./*.html')
-              .pipe(injectfile({
-                pattern: '<!--\\s*inject:<filename>-->'
-              }))
-              .pipe(gulp.dest('dist/'));
-
 });
 
 // Copy vendor libraries from /node_modules into /vendor
@@ -62,4 +64,4 @@ gulp.task('copy', function() {
 })
 
 // Run everything
-gulp.task('default', ['less', 'minify-css', 'minify-js', 'inject', 'copy']);
+gulp.task('default', ['less', 'minify-html', 'minify-css', 'minify-js', 'copy']);
