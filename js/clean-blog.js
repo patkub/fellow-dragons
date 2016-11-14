@@ -1,5 +1,10 @@
 // Navigation Scripts to Show Header on Scroll-Up
 jQuery(document).ready(function($) {
+
+  $('.navbar-collapse a').click(function(){
+    $(".navbar-collapse").collapse('hide');
+  });
+
     var MQL = 1170;
 
     //primary navigation slide-in effect
