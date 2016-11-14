@@ -21,7 +21,12 @@ gulp.task('minify-html', function() {
     .pipe(injectfile({
       pattern: '<!--\\s*inject:<filename>-->'
     }))
-    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(htmlmin({
+      collapseWhitespace: true,
+      removeComments: true,
+      minifyCSS: true,
+      minifyJS: true
+    }))
     .pipe(gulp.dest('dist'));
 });
 
