@@ -2,8 +2,10 @@ var gulp = require('gulp');
 var less = require('gulp-less');
 var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
+var replace = require('gulp-replace');
 var uglify = require('gulp-uglify');
 var htmlmin = require('gulp-htmlmin');
+var vulcanize = require('gulp-vulcanize');
 var injectfile = require("gulp-inject-file");
 var pkg = require('./package.json');
 
@@ -17,10 +19,11 @@ gulp.task('less', function() {
 
 // Minify HTML
 gulp.task('minify-html', function() {
-  return gulp.src('./*.html')
+  return gulp.src('./index.html')
     .pipe(injectfile({
       pattern: '<!--\\s*inject:<filename>-->'
     }))
+    .pipe(replace('src/components.html', 'critical.html'))
     .pipe(htmlmin({
       collapseWhitespace: true,
       removeComments: true,
@@ -46,6 +49,18 @@ gulp.task('minify-js', function() {
         .pipe(gulp.dest('dist/js'))
 });
 
+// Vulcanize Web Components
+gulp.task('vulcanize', function () {
+    gulp.src('src/components.html')
+      .pipe(vulcanize({
+          stripComments: true,
+          inlineScripts: true,
+          inlineCss: true
+      }))
+      .pipe(rename('critical.html'))
+      .pipe(gulp.dest('dist'));
+});
+
 // Copy vendor libraries from /node_modules into /vendor
 gulp.task('copy', function() {
     gulp.src(['node_modules/bootstrap/dist/**/*', '!**/npm.js', '!**/bootstrap-theme.*', '!**/*.map'])
@@ -66,7 +81,10 @@ gulp.task('copy', function() {
 
     gulp.src(['img/**'])
         .pipe(gulp.dest('dist/img'))
+
+    gulp.src(['/bower_components/webcomponentsjs/webcomponents-lite.min.js'])
+        .pipe(gulp.dest('dist/js/'))
 })
 
 // Run everything
-gulp.task('default', ['less', 'minify-html', 'minify-css', 'minify-js', 'copy']);
+gulp.task('default', ['less', 'minify-html', 'minify-css', 'minify-js', 'vulcanize', 'copy']);

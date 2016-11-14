@@ -1,0 +1,41 @@
+<link rel="import" href="view-home.html">
+<link rel="import" href="view-about.html">
+
+<dom-module id="blog-app">
+  <template>
+    <app-location route="{{route}}" use-hash-as-path></app-location>
+    <app-route
+      route="{{route}}"
+      pattern="/:page"
+      data="{{routeData}}"
+      tail="{{subroute}}"></app-route>
+
+      <iron-pages
+        selected="[[page]]"
+        attr-for-selected="name"
+        fallback-selection="home"
+        role="main">
+      <view-home name="home"></view-home>
+      <view-about name="about"></view-about>
+
+    </iron-pages>
+  </template>
+
+  <script>
+    Polymer({
+      is: 'blog-app',
+      properties: {
+        page: {
+          type: String,
+          reflectToAttribute: true
+        }
+      },
+      observers: [
+        '_routePageChanged(routeData.page)'
+      ],
+      _routePageChanged: function(page) {
+        this.page = page || 'home';
+      }
+    });
+  </script>
+</dom-module>

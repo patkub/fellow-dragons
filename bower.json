@@ -15,6 +15,9 @@
     "tests"
   ],
   "dependencies": {
-    "html5shiv": "^3.7.3"
+    "html5shiv": "^3.7.3",
+    "app-route": "PolymerElements/app-route#^0.9.3",
+    "iron-pages": "PolymerElements/iron-pages#1.0.0",
+    "iron-selector": "PolymerElements/iron-selector#1.0.0"
   }
 }
