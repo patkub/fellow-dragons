@@ -3,6 +3,7 @@ var less = require('gulp-less');
 var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
 var uglify = require('gulp-uglify');
+var injectfile = require("gulp-inject-file");
 var pkg = require('./package.json');
 
 // Compile LESS files from /less into /css
@@ -29,6 +30,15 @@ gulp.task('minify-js', function() {
         .pipe(gulp.dest('dist/js'))
 });
 
+gulp.task('inject', function () {
+  return gulp.src('./index.html')
+              .pipe(injectfile({
+                pattern: '<!--\\s*inject:<filename>-->'
+              }))
+              .pipe(gulp.dest('dist/'));
+
+});
+
 // Copy vendor libraries from /node_modules into /vendor
 gulp.task('copy', function() {
     gulp.src(['node_modules/bootstrap/dist/**/*', '!**/npm.js', '!**/bootstrap-theme.*', '!**/*.map'])
@@ -47,12 +57,9 @@ gulp.task('copy', function() {
         ])
         .pipe(gulp.dest('dist/vendor/font-awesome'))
 
-    gulp.src(['*.html'])
-        .pipe(gulp.dest('dist'))
-
     gulp.src(['img/**'])
         .pipe(gulp.dest('dist/img'))
 })
 
 // Run everything
-gulp.task('default', ['less', 'minify-css', 'minify-js', 'copy']);
+gulp.task('default', ['less', 'minify-css', 'minify-js', 'inject', 'copy']);
