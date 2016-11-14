@@ -31,7 +31,7 @@ gulp.task('minify-js', function() {
 });
 
 gulp.task('inject', function () {
-  return gulp.src('./index.html')
+  return gulp.src('./*.html')
               .pipe(injectfile({
                 pattern: '<!--\\s*inject:<filename>-->'
               }))
