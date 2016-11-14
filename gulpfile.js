@@ -6,7 +6,6 @@ var replace = require('gulp-replace');
 var uglify = require('gulp-uglify');
 var htmlmin = require('gulp-htmlmin');
 var vulcanize = require('gulp-vulcanize');
-var injectfile = require("gulp-inject-file");
 var pkg = require('./package.json');
 
 // Compile LESS files from /less into /css
@@ -20,9 +19,6 @@ gulp.task('less', function() {
 // Minify HTML
 gulp.task('minify-html', function() {
   return gulp.src('./index.html')
-    .pipe(injectfile({
-      pattern: '<!--\\s*inject:<filename>-->'
-    }))
     .pipe(replace('src/components.html', 'critical.html'))
     .pipe(htmlmin({
       collapseWhitespace: true,
@@ -82,8 +78,8 @@ gulp.task('copy', function() {
     gulp.src(['img/**'])
         .pipe(gulp.dest('dist/img'))
 
-    gulp.src(['/bower_components/webcomponentsjs/webcomponents-lite.min.js'])
-        .pipe(gulp.dest('dist/js/'))
+    gulp.src(['bower_components/webcomponentsjs/webcomponents-lite.min.js'])
+        .pipe(gulp.dest('dist/js'))
 })
 
 // Run everything
