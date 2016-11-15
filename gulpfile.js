@@ -69,7 +69,7 @@ gulp.task('copy', function() {
       .pipe(gulp.dest('dist/posts'))
     gulp.src(['img/**'])
       .pipe(gulp.dest('dist/img'))
-    gulp.src(['node_modules/font-awesome/fonts/**'])
+    gulp.src(['bower_components/font-awesome/fonts/**'])
       .pipe(gulp.dest('dist/fonts'))
     gulp.src(['bower_components/webcomponentsjs/webcomponents-lite.min.js'])
       .pipe(gulp.dest('dist/js'));
