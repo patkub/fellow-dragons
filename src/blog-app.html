@@ -1,5 +1,6 @@
 <link rel="import" href="view-home.html">
 <link rel="import" href="view-about.html">
+<link rel="import" href="posts/view-post1.html">
 
 <dom-module id="blog-app">
   <template>
@@ -17,6 +18,7 @@
         role="main">
       <view-home name="home"></view-home>
       <view-about name="about"></view-about>
+      <view-post1 name="post1"></view-post1>
 
     </iron-pages>
   </template>
@@ -35,6 +37,7 @@
       ],
       _routePageChanged: function(page) {
         this.page = page || 'home';
+        $('html, body').animate({ scrollTop: 0 }, 'slow', 'swing');
       }
     });
   </script>
