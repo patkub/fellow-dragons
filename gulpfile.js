@@ -58,7 +58,7 @@ gulp.task('vulcanize', function () {
         minifyCSS: true,
         minifyJS: true
       }))
-      .pipe(replace('../node_modules/font-awesome/fonts/', 'fonts/'))
+      .pipe(replace('../bower_components/font-awesome/fonts/', 'fonts/'))
       .pipe(rename('critical.html'))
       .pipe(gulp.dest('dist'));
 });

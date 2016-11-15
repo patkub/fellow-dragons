@@ -15,9 +15,12 @@
     "tests"
   ],
   "dependencies": {
-    "html5shiv": "^3.7.3",
     "app-route": "PolymerElements/app-route#^0.9.3",
     "iron-pages": "PolymerElements/iron-pages#1.0.0",
-    "iron-selector": "PolymerElements/iron-selector#1.0.0"
+    "iron-selector": "PolymerElements/iron-selector#1.0.0",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "font-awesome": "^4.7.0",
+    "polymer": "Polymer/polymer#^1.7.0"
   }
 }
