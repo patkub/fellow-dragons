@@ -9,7 +9,7 @@ Built with [Polymer](https://www.polymer-project.org/)
 Clone the repo using Git:
 
 ```bash
-git clone https://gitlab.com/patkub/blog.git
+git clone https://github.com/patkub/blog.git
 ```
 
 ### Local Setup:
