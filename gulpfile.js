@@ -65,6 +65,8 @@ gulp.task('vulcanize', function () {
 
 // Copy files
 gulp.task('copy', function() {
+    gulp.src(['posts/**'])
+      .pipe(gulp.dest('dist/posts'))
     gulp.src(['img/**'])
       .pipe(gulp.dest('dist/img'))
     gulp.src(['node_modules/font-awesome/fonts/**'])
