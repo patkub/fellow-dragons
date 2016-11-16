@@ -1,7 +1,6 @@
 <link rel="import" href="view-home.html">
 <link rel="import" href="view-about.html">
 <link rel="import" href="view-post.html">
-<link rel="import" href="posts/view-post1.html">
 
 <dom-module id="blog-app">
   <template>
@@ -32,20 +31,7 @@
     Polymer({
       is: 'blog-app',
       properties: {
-        page: {
-          type: String,
-          reflectToAttribute: true
-        },
-        post: {
-          type: String,
-          reflectToAttribute: true
-        }
-      },
-      observers: [
-        '_routePageChanged(routeData.view)'
-      ],
-      _routePageChanged: function(view, post) {
-        this.view = view || 'home';
+        route: Object
       }
     });
   </script>
