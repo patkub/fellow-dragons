@@ -3,7 +3,6 @@ var less = require('gulp-less');
 var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
 var replace = require('gulp-replace');
-var uglify = require('gulp-uglify');
 var htmlmin = require('gulp-htmlmin');
 var vulcanize = require('gulp-vulcanize');
 
@@ -33,14 +32,6 @@ gulp.task('minify-css', ['less'], function() {
       .pipe(cleanCSS({ compatibility: 'ie8' }))
       .pipe(rename({ suffix: '.min' }))
       .pipe(gulp.dest('css'));
-});
-
-// Minify JS
-gulp.task('minify-js', function() {
-    return gulp.src('js/clean-blog.js')
-      .pipe(uglify())
-      .pipe(rename({ suffix: '.min' }))
-      .pipe(gulp.dest('js'));
 });
 
 // Vulcanize Web Components
@@ -75,4 +66,4 @@ gulp.task('copy', function() {
 })
 
 // Run everything
-gulp.task('default', ['less', 'minify-css', 'minify-html', 'minify-js', 'vulcanize', 'copy']);
+gulp.task('default', ['less', 'minify-css', 'minify-html', 'vulcanize', 'copy']);
