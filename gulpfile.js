@@ -24,7 +24,6 @@ gulp.task('minify-html', function() {
 gulp.task('less', function() {
     return gulp.src('less/clean-blog.less')
       .pipe(less())
-      .pipe(rename({ suffix: '.min' }))
       .pipe(gulp.dest('css'));
 });
 
