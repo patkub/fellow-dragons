@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "author": "Patrick Kubiak",
   "license": "ISC",
+  "repository" :
+  {
+    "type": "git",
+    "url": "https://github.com/patkub/blog.git"
+  }
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-clean-css": "^2.0.10",
