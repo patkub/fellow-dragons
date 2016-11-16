@@ -1,21 +1,25 @@
-<dom-module id="view-home">
+<dom-module id="view-page">
   <template>
+
     <!-- Main Content -->
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-              <zero-md file="posts/home.md">
+              <zero-md file="posts/[[page]].md">
                 <div class="md-html"></div>
               </zero-md>
             </div>
         </div>
     </div>
-    
+
   </template>
 
   <script>
     Polymer({
-      is: 'view-home'
+      is: 'view-page',
+      properties: {
+        page: String
+      },
     });
   </script>
 </dom-module>

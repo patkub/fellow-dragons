@@ -1,5 +1,4 @@
-<link rel="import" href="view-home.html">
-<link rel="import" href="view-about.html">
+<link rel="import" href="view-page.html">
 <link rel="import" href="view-post.html">
 
 <dom-module id="blog-app">
@@ -18,12 +17,12 @@
     <!-- iron-pages selects the view based on the active route -->
     <iron-pages
         selected="[[page]]"
-        attr-for-selected="name"
+        attr-for-selected="page"
         fallback-selection="home"
         role="main">
-      <view-home name="home"></view-home>
-      <view-about name="about"></view-about>
-      <view-post name="post" route="{{subroute}}"></view-post>
+      <view-page page="home"></view-page>
+      <view-page page="about"></view-page>
+      <view-post page="post" route="{{subroute}}"></view-post>
     </iron-pages>
 
   </template>
