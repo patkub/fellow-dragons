@@ -35,7 +35,7 @@ gulp.task('minify-css', ['less'], function() {
 });
 
 // Vulcanize Web Components
-gulp.task('vulcanize', function () {
+gulp.task('vulcanize', ['less', 'minify-css'], function () {
     gulp.src('src/components.html')
       .pipe(vulcanize({
         stripComments: true,
