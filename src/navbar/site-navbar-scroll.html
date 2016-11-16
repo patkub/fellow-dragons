@@ -8,6 +8,11 @@
         background: String
       },
       created: function() {
+        // collapse navbar after navigate
+        $('.navbar-collapse a').click(function(){
+          $(".navbar-collapse").collapse('hide');
+        });
+
         // primary navigation slide-in effect
         if ($(window).width() > 768) {
           var headerHeight = $('.navbar-custom').height();
