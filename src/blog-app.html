@@ -11,15 +11,16 @@
     <!-- this app-route manages the top-level routes -->
     <app-route
         route="{{route}}"
-        pattern="/:view"
+        pattern="/:page"
         data="{{routeData}}"
         tail="{{subroute}}"></app-route>
 
     <!-- iron-pages selects the view based on the active route -->
     <iron-pages
-        selected="[[routeData.view]]"
+        selected="[[page]]"
         attr-for-selected="name"
-        fallback-selection="home">
+        fallback-selection="home"
+        role="main">
       <view-home name="home"></view-home>
       <view-about name="about"></view-about>
       <view-post name="post" route="{{subroute}}"></view-post>
@@ -31,7 +32,18 @@
     Polymer({
       is: 'blog-app',
       properties: {
-        route: Object
+        route: Object,
+        page: {
+          type: String,
+          reflectToAttribute: true,
+          observer: '_pageChanged'
+        }
+      },
+      observers: [
+        '_routePageChanged(routeData.page)'
+      ],
+      _routePageChanged: function(page) {
+        this.page = page || 'home';
       }
     });
   </script>
