@@ -1,26 +1,31 @@
 <link rel="import" href="view-home.html">
 <link rel="import" href="view-about.html">
+<link rel="import" href="view-post.html">
 <link rel="import" href="posts/view-post1.html">
 
 <dom-module id="blog-app">
   <template>
-    <app-location route="{{route}}" use-hash-as-path></app-location>
-    <app-route
-      route="{{route}}"
-      pattern="/:page"
-      data="{{routeData}}"
-      tail="{{subroute}}"></app-route>
 
-      <iron-pages
-        selected="[[page]]"
+    <!-- app-location binds to the app's URL -->
+    <app-location route="{{route}}" use-hash-as-path></app-location>
+
+    <!-- this app-route manages the top-level routes -->
+    <app-route
+        route="{{route}}"
+        pattern="/:view"
+        data="{{routeData}}"
+        tail="{{subroute}}"></app-route>
+
+    <!-- iron-pages selects the view based on the active route -->
+    <iron-pages
+        selected="[[routeData.view]]"
         attr-for-selected="name"
-        fallback-selection="home"
-        role="main">
+        fallback-selection="home">
       <view-home name="home"></view-home>
       <view-about name="about"></view-about>
-      <view-post1 name="post1"></view-post1>
-
+      <view-post name="post" route="{{subroute}}"></view-post>
     </iron-pages>
+
   </template>
 
   <script>
@@ -30,13 +35,17 @@
         page: {
           type: String,
           reflectToAttribute: true
+        },
+        post: {
+          type: String,
+          reflectToAttribute: true
         }
       },
       observers: [
-        '_routePageChanged(routeData.page)'
+        '_routePageChanged(routeData.view)'
       ],
-      _routePageChanged: function(page) {
-        this.page = page || 'home';
+      _routePageChanged: function(view, post) {
+        this.view = view || 'home';
       }
     });
   </script>

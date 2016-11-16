@@ -1,0 +1,31 @@
+<dom-module id="view-post">
+  <template>
+
+    <!-- this app-route determines the post to show -->
+    <app-route
+      route="{{route}}"
+      pattern="/:post_id"
+      data="{{routeData}}"
+      tail="{{subroute}}"></app-route>
+
+    <!-- [[routeData.post_id]] is the id of the blog post to show -->
+    <article>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <zero-md file="posts/post_[[routeData.post_id]].md">
+              <div class="md-html"></div>
+            </zero-md>
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </template>
+
+  <script>
+    Polymer({
+      is: 'view-post'
+    });
+  </script>
+</dom-module>
