@@ -29,7 +29,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <zero-md file="posts/post_[[routeData.post]].md">
+            <zero-md file="[[post]]">
               <div class="md-html"></div>
             </zero-md>
 
@@ -50,7 +50,23 @@
     Polymer({
       is: 'view-post',
       properties: {
-        routeData: Object
+        route: {
+          type: Object,
+          observer: '_routePageChanged'
+        },
+        post: {
+          type: String,
+          value: 'posts/post_1.md',
+          reflectToAttribute: true
+        }
+      },
+      observers: [
+        '_routePageChanged(routeData)'
+      ],
+      _routePageChanged: function(routeData) {
+        if (routeData.post) {
+          this.post = 'posts/post_' + routeData.post + '.md';
+        }
       }
     });
   </script>
