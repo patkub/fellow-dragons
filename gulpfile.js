@@ -4,6 +4,7 @@ var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
 var replace = require('gulp-replace');
 var htmlmin = require('gulp-htmlmin');
+var minifyInline = require('gulp-minify-inline');
 var vulcanize = require('gulp-vulcanize');
 
 // Minify HTML
@@ -49,6 +50,7 @@ gulp.task('vulcanize', ['minify-css'], function () {
         minifyCSS: true,
         minifyJS: true
       }))
+      .pipe(minifyInline())
       .pipe(gulp.dest('dist'));
 
     gulp.src('src/deferred.html')
@@ -63,6 +65,7 @@ gulp.task('vulcanize', ['minify-css'], function () {
         minifyCSS: true,
         minifyJS: true
       }))
+      .pipe(minifyInline())
       .pipe(replace('../bower_components/font-awesome/fonts/', 'fonts/'))
       .pipe(gulp.dest('dist'));
 });
