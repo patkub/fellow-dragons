@@ -6,6 +6,8 @@ var replace = require('gulp-replace');
 var htmlmin = require('gulp-htmlmin');
 var minifyInline = require('gulp-minify-inline');
 var vulcanize = require('gulp-vulcanize');
+var path = require('path');
+var swPrecache = require('sw-precache');
 
 // Minify HTML
 gulp.task('minify-html', function() {
@@ -71,11 +73,9 @@ gulp.task('vulcanize', ['minify-css'], function () {
 });
 
 gulp.task('generate-service-worker', function(callback) {
-  var path = require('path');
-  var swPrecache = require('sw-precache');
-  var rootDir = 'app';
-  
-  swPrecache.write('dist/service-worker.js', {
+  var rootDir = 'dist';
+
+  swPrecache.write(path.join(rootDir, 'service-worker.js'), {
     staticFileGlobs: [rootDir + '/**/*.{js,html,jpg,otf,eot,ttf,woff,woff2,md}'],
     stripPrefix: rootDir
   }, callback);
