@@ -76,7 +76,7 @@ gulp.task('generate-service-worker', function(callback) {
   var rootDir = 'dist';
 
   swPrecache.write(path.join(rootDir, 'service-worker.js'), {
-    staticFileGlobs: [rootDir + '/**/*.{js,html,jpg,otf,eot,ttf,woff,woff2,md}'],
+    staticFileGlobs: [rootDir + '/**/*.{js,html,jpg,svg,otf,eot,ttf,woff,woff2,md}'],
     stripPrefix: rootDir
   }, callback);
 });
@@ -94,4 +94,4 @@ gulp.task('copy', function() {
 })
 
 // Run everything
-gulp.task('default', ['less', 'minify-css', 'minify-html', 'vulcanize', 'generate-service-worker', 'copy']);
+gulp.task('default', ['less', 'minify-css', 'minify-html', 'vulcanize', 'copy', 'generate-service-worker']);
