@@ -6,6 +6,11 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               <zero-md file="posts/[[page]].md">
+                <style is="dom-if" if="{{_headerColor}}">
+                  .md-html h1 {
+                    color: #0066b3;
+                  }
+                </style>
                 <div class="md-html"></div>
               </zero-md>
             </div>
@@ -20,6 +25,9 @@
       properties: {
         page: String
       },
+      _headerColor: function() {
+        return this.page != 'home'
+      }
     });
   </script>
 </dom-module>
