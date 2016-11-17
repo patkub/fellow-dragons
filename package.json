@@ -2,22 +2,19 @@
   "name": "blog",
   "version": "1.0.0",
   "author": "Patrick Kubiak",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/patkub/blog.git"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-clean-css": "^2.0.10",
-    "gulp-header": "^1.8.7",
-    "gulp-htmlmin": "^3.0.0",
-    "gulp-inject-file": "0.0.18",
     "gulp-less": "^3.1.0",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-htmlmin": "^3.0.0",
     "gulp-minify-inline": "^0.2.1",
     "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.5.4",
-    "gulp-uglify": "^2.0.0",
     "gulp-vulcanize": "^6.1.0"
   }
 }
