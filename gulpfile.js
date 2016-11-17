@@ -9,7 +9,7 @@ var vulcanize = require('gulp-vulcanize');
 
 // Minify HTML
 gulp.task('minify-html', function() {
-  return gulp.src('./index.html')
+  return gulp.src('app/index.html')
     .pipe(htmlmin({
       collapseWhitespace: true,
       removeComments: true,
@@ -23,14 +23,14 @@ gulp.task('minify-html', function() {
 
 // Compile LESS files from /less into /css
 gulp.task('less', function() {
-    return gulp.src('less/clean-blog.less')
+    return gulp.src('app/less/clean-blog.less')
       .pipe(less())
       .pipe(gulp.dest('css'));
 });
 
 // Minify compiled CSS
 gulp.task('minify-css', ['less'], function() {
-    return gulp.src('css/clean-blog.css')
+    return gulp.src('app/css/clean-blog.css')
       .pipe(cleanCSS({ compatibility: 'ie8' }))
       .pipe(rename({ suffix: '.min' }))
       .pipe(gulp.dest('css'));
@@ -38,7 +38,7 @@ gulp.task('minify-css', ['less'], function() {
 
 // Vulcanize Web Components
 gulp.task('vulcanize', ['minify-css'], function () {
-    gulp.src('src/critical.html')
+    gulp.src('app/src/critical.html')
       .pipe(vulcanize({
         stripComments: true,
         inlineScripts: true,
@@ -53,7 +53,7 @@ gulp.task('vulcanize', ['minify-css'], function () {
       .pipe(minifyInline())
       .pipe(gulp.dest('dist'));
 
-    gulp.src('src/deferred.html')
+    gulp.src('app/src/deferred.html')
       .pipe(vulcanize({
         stripComments: true,
         inlineScripts: true,
@@ -70,11 +70,22 @@ gulp.task('vulcanize', ['minify-css'], function () {
       .pipe(gulp.dest('dist'));
 });
 
+gulp.task('generate-service-worker', function(callback) {
+  var path = require('path');
+  var swPrecache = require('sw-precache');
+  var rootDir = 'app';
+
+  swPrecache.write('dist/service-worker.js', {
+    staticFileGlobs: [rootDir + '/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff,md}'],
+    stripPrefix: rootDir
+  }, callback);
+});
+
 // Copy files
 gulp.task('copy', function() {
-    gulp.src(['posts/**'])
+    gulp.src(['app/posts/**'])
       .pipe(gulp.dest('dist/posts'))
-    gulp.src(['img/**'])
+    gulp.src(['app/img/**'])
       .pipe(gulp.dest('dist/img'))
     gulp.src(['bower_components/font-awesome/fonts/**'])
       .pipe(gulp.dest('dist/fonts'))
@@ -83,4 +94,4 @@ gulp.task('copy', function() {
 })
 
 // Run everything
-gulp.task('default', ['less', 'minify-css', 'minify-html', 'vulcanize', 'copy']);
+gulp.task('default', ['less', 'minify-css', 'minify-html', 'vulcanize', 'generate-service-worker', 'copy']);

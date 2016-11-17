@@ -15,6 +15,7 @@
       dom: 'shady',
       lazyRegister: true
     };
+
     // Load webcomponentsjs polyfill if browser does not support native Web Components
     (function() {
       'use strict';
@@ -42,6 +43,13 @@
         onload();
       }
     })();
+
+    // Load pre-caching Service Worker
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/service-worker.js');
+      });
+    }
   </script>
 
   <link rel="import" href="src/critical.html">
