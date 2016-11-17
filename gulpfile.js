@@ -72,6 +72,7 @@ gulp.task('vulcanize', ['minify-css'], function () {
       .pipe(gulp.dest('dist'));
 });
 
+// Service Worker
 gulp.task('generate-service-worker', function(callback) {
   var rootDir = 'dist';
 
