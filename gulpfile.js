@@ -84,6 +84,8 @@ gulp.task('generate-service-worker', function(callback) {
 
 // Copy files
 gulp.task('copy', function() {
+    gulp.src(['app/manifest/**'])
+      .pipe(gulp.dest('dist/manifest'))
     gulp.src(['app/posts/**'])
       .pipe(gulp.dest('dist/posts'))
     gulp.src(['app/img/**'])
