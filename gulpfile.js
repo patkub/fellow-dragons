@@ -9,13 +9,14 @@ var vulcanize = require('gulp-vulcanize');
 // Minify HTML
 gulp.task('minify-html', function() {
   return gulp.src('./index.html')
-    .pipe(replace('src/components.html', 'critical.html'))
     .pipe(htmlmin({
       collapseWhitespace: true,
       removeComments: true,
       minifyCSS: true,
       minifyJS: true
     }))
+    .pipe(replace('src/critical.html', 'critical.html'))
+    .pipe(replace('src/deferred.html', 'deferred.html'))
     .pipe(gulp.dest('dist'));
 });
 
@@ -36,7 +37,21 @@ gulp.task('minify-css', ['less'], function() {
 
 // Vulcanize Web Components
 gulp.task('vulcanize', ['minify-css'], function () {
-    gulp.src('src/components.html')
+    gulp.src('src/critical.html')
+      .pipe(vulcanize({
+        stripComments: true,
+        inlineScripts: true,
+        inlineCss: true
+      }))
+      .pipe(htmlmin({
+        collapseWhitespace: true,
+        removeComments: true,
+        minifyCSS: true,
+        minifyJS: true
+      }))
+      .pipe(gulp.dest('dist'));
+
+    gulp.src('src/deferred.html')
       .pipe(vulcanize({
         stripComments: true,
         inlineScripts: true,
@@ -49,7 +64,6 @@ gulp.task('vulcanize', ['minify-css'], function () {
         minifyJS: true
       }))
       .pipe(replace('../bower_components/font-awesome/fonts/', 'fonts/'))
-      .pipe(rename('critical.html'))
       .pipe(gulp.dest('dist'));
 });
 
