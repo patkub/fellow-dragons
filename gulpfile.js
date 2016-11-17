@@ -68,7 +68,7 @@ gulp.task('vulcanize', ['minify-css'], function () {
         minifyJS: true
       }))
       .pipe(minifyInline())
-      .pipe(replace('../bower_components/font-awesome/fonts/', 'fonts/'))
+      .pipe(replace('../../bower_components/font-awesome/fonts/', 'fonts/'))
       .pipe(gulp.dest('dist'));
 });
 
