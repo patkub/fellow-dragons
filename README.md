@@ -1,7 +1,5 @@
 # Blog
-![PageSpeed](https://pagespeed-badges.herokuapp.com/?url=http://antuple.net/sites/fellowdragons/&strat=desktop&showStratLabel=true)  
-![PageSpeed](https://pagespeed-badges.herokuapp.com/?url=http://antuple.net/sites/fellowdragons/&strat=mobile&showStratLabel=true)  
-
+![Blog PageSpeed](https://pagespeed-badges.herokuapp.com/?url=http://antuple.net/sites/fellowdragons/)  
 Built with [Polymer](https://www.polymer-project.org/)  
 **\#UseThePlatform to build a better web**  
 
