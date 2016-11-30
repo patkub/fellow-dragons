@@ -8,6 +8,7 @@ var minifyInline = require('gulp-minify-inline');
 var vulcanize = require('gulp-vulcanize');
 var path = require('path');
 var swPrecache = require('sw-precache');
+var watch = require('gulp-watch');
 
 // Minify HTML
 gulp.task('minify-html', function() {
@@ -95,6 +96,13 @@ gulp.task('copy', function() {
     gulp.src(['bower_components/webcomponentsjs/webcomponents-lite.min.js'])
       .pipe(gulp.dest('dist/js'));
 })
+
+// Watch files for changes
+gulp.task('watch', function() {
+  gulp.watch('app/index.html', ['minify-html', 'generate-service-worker'])
+  gulp.watch(['app/less/**', 'app/src/**'], ['vulcanize', 'generate-service-worker'])
+  gulp.watch(['app/img/**', 'app/manifest/**', 'app/posts/**'], ['copy', 'generate-service-worker'])
+});
 
 // Run everything
 gulp.task('default', ['less', 'minify-css', 'minify-html', 'vulcanize', 'copy', 'generate-service-worker']);

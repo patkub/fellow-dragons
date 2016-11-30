@@ -16,6 +16,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.5.4",
     "gulp-vulcanize": "^6.1.0",
+    "gulp-watch": "^4.3.11",
     "sw-precache": "^4.2.3"
   }
 }
