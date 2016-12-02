@@ -55,6 +55,7 @@
       _routePageChanged: function(routeData) {
         if (routeData.post) {
           this.post = 'posts/post_' + routeData.post + '.md';
+          this.scrollIntoView();
         }
       }
     });
