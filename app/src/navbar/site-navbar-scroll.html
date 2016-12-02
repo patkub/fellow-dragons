@@ -8,18 +8,22 @@
         background: String
       },
       created: function() {
+        // make the navbar fixed
+        var fixNabar = function() {
+          $('.navbar-custom').css('position', 'fixed');
+          $('.navbar-custom').addClass('is-fixed');
+        };
+
         // collapse navbar after navigate
         $('.navbar-collapse a').click(function(){
           $(".navbar-collapse").collapse('hide');
         });
 
-        // primary navigation slide-in effect
         var headerHeight = $('.navbar-custom').height();
-
         $(window).on('resize', function() {
           if ($(window).width() > 768 && $(window).scrollTop() > 0) {
-            $('.navbar-custom').css('position', 'fixed');
-            $('.navbar-custom').addClass('is-fixed');
+            // fixed navbar on mobile
+            fixNabar();
           }
         });
 
@@ -28,25 +32,25 @@
         },
         function() {
           if ($(window).width() > 768) {
+            // navigation slide-in effect on desktop
             var currentTop = $(window).scrollTop();
-            // check if user is scrolling up
             if (currentTop < this.previousTop) {
-                // if scrolling up...
+                // hide navbar when scrolling up
                 if (currentTop > 0 && $('.navbar-custom').hasClass('is-fixed')) {
                     $('.navbar-custom').addClass('is-visible');
                 } else {
                     $('.navbar-custom').removeClass('is-visible is-fixed');
                 }
             } else if (currentTop > this.previousTop) {
-                // if scrolling down...
+                // show navbar when scrolling down
                 $('.navbar-custom').removeClass('is-visible');
                 if (currentTop > headerHeight && !$('.navbar-custom').hasClass('is-fixed')) {
                  $('.navbar-custom').addClass('is-fixed');
                }
             }
           } else {
-            $('.navbar-custom').css('position', 'fixed');
-            $('.navbar-custom').addClass('is-fixed');
+            // fixed navbar on mobile
+            fixNabar();
           }
           this.previousTop = currentTop;
         });
