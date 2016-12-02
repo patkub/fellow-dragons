@@ -19,7 +19,8 @@
         selected="[[page]]"
         attr-for-selected="page"
         fallback-selection="home"
-        role="main">
+        role="main"
+        id="pages">
       <view-page page="home"></view-page>
       <view-page page="about"></view-page>
       <view-post page="post" route="{{subroute}}"></view-post>
@@ -43,6 +44,7 @@
       ],
       _routePageChanged: function(page) {
         this.page = page || 'home';
+        this.$$('#pages').scrollIntoView();
       }
     });
   </script>
