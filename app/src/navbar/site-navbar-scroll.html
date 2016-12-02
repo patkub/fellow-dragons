@@ -14,12 +14,12 @@
         });
 
         // primary navigation slide-in effect
-        if ($(window).width() > 768) {
-          var headerHeight = $('.navbar-custom').height();
-          $(window).on('scroll', {
-              previousTop: 0
-          },
-          function() {
+        var headerHeight = $('.navbar-custom').height();
+        $(window).on('scroll', {
+            previousTop: 0
+        },
+        function() {
+          if ($(window).width() > 768) {
             var currentTop = $(window).scrollTop();
             // check if user is scrolling up
             if (currentTop < this.previousTop) {
@@ -36,9 +36,13 @@
                  $('.navbar-custom').addClass('is-fixed');
                }
             }
-            this.previousTop = currentTop;
-          });
-        }
+          } else {
+            // mobile init
+            $('.navbar-custom').addClass('is-fixed');
+            $('.navbar-custom').css('position', 'fixed');
+          }
+          this.previousTop = currentTop;
+        });
       }
     });
   </script>
