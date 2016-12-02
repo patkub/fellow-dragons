@@ -59,7 +59,6 @@ hr.small {
 // Navigation
 
 .navbar-custom {
-	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -87,6 +86,7 @@ hr.small {
 		}
 	}
 	@media only screen and (min-width: 768px) {
+		position:absolute;
 		background: transparent;
 		border-bottom: 1px solid transparent;
 		.navbar-brand {
@@ -125,7 +125,8 @@ hr.small {
 		&.is-fixed {
 			/* when the user scrolls down, we hide the header right above the viewport */
 			position: fixed;
-			top: -61px;
+			/*top: -61px;*/
+			top: 0px;
 			background-color: fade(white, 90%);
 			border-bottom: 1px solid darken(white, 5%);
 			-webkit-transition: -webkit-transform 0.3s;
