@@ -15,6 +15,14 @@
 
         // primary navigation slide-in effect
         var headerHeight = $('.navbar-custom').height();
+
+        $(window).on('resize', function() {
+          if ($(window).width() > 768 && $(window).scrollTop() > 0) {
+            $('.navbar-custom').css('position', 'fixed');
+            $('.navbar-custom').addClass('is-fixed');
+          }
+        });
+
         $(window).on('scroll', {
             previousTop: 0
         },
@@ -37,9 +45,8 @@
                }
             }
           } else {
-            // mobile init
-            $('.navbar-custom').addClass('is-fixed');
             $('.navbar-custom').css('position', 'fixed');
+            $('.navbar-custom').addClass('is-fixed');
           }
           this.previousTop = currentTop;
         });
