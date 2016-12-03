@@ -44,7 +44,8 @@
       ],
       _routePageChanged: function(page) {
         this.page = page || 'home';
-        this.$$('#pages').scrollIntoView();
+        this.scrollIntoView();
+        window.scrollBy(0, -50);
       }
     });
   </script>
