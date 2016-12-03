@@ -8,11 +8,12 @@
       data="{{routeData}}"
       tail="{{subroute}}"></app-route>
 
-    <!-- [[routeData.post_id]] is the id of the blog post to show -->
+    <!-- post article -->
     <article>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <!-- parse markdown -->
             <zero-md file="[[post]]">
               <style>
                 .md-html h1 {
@@ -22,7 +23,7 @@
               <div class="md-html"></div>
             </zero-md>
 
-            <!-- Pager -->
+            <!-- pager -->
             <ul class="pager">
                 <li class="next" style="float:left;">
                     <a href="#/home"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Back</a>
