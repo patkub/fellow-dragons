@@ -2,7 +2,7 @@
 <google-youtube
   video-id="NX2kR-L0w60"
   height="360px"
-  width="640px"
+  width="100%"
   rel="0"
   start="0"
   autoplay="0">
