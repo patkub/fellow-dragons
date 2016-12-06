@@ -1,9 +1,8 @@
-# FRC Rhapsody by Parsons Vikings Team 1448
-<google-youtube
-  video-id="NX2kR-L0w60"
-  height="360px"
-  width="100%"
-  rel="0"
-  start="0"
-  autoplay="0">
-</google-youtube>
+# First Robotics is not only for STEM students
+*Posted by **Patrick Kubiak** on November 29, 2016*  
+
+First Robotics goes beyond robot building. While building a robot for the competition is the ultimate goal, there is a lot more that students are involved in. The team operates like a business and as in a real business there are numerous positions for a variety of talents waiting to be filled. It is not just designing, building robots and then competing but it also involves fundraising, getting sponsors, marketing and event planning. Therefore, the team always needs writers to help with writing for the website, to draft letters to sponsors, and to chronicle the events the team is involved in. Photographers and film makers are also in high demand.
+
+Participation on the team gives students an opportunity to learn about engineering and technology through hands on experience working alongside professionals in a true engineering and business environment. Since the team operates like a business, students acquire many professional skills, such as managing a budget, making presentations and planning the build season. As an extracurricular program, the team allows students to apply concepts learned in school as well as develop new skills thanks to various workshops taught by our mentors. The students are able to take advantage of the SolidWorks, LabView, Welding and Electronics classes taught by the mentors.
+
+Each year, the team participates in the *FIRST* Robotics Competition which *FIRST* calls the "Varsity Sport for the Mind™". Teams are given only six weeks to design, construct and program a robot which will compete against other teams in regional and national events. This closely mimics the real-life challenges engineers face when working on the projects.

@@ -7,12 +7,18 @@
   autoplay="0">
 </google-youtube>
 
-# [FRC Rhapsody by Parsons Vikings Team 1448](#/post/2/)
+# [FRC Rhapsody by Parsons Vikings Team 1448](#/post/3/)
 *Posted by **Patrick Kubiak** on November 29, 2016*  
-FRC Rhapsody by Parsons Vikings Team 1448... [more](#/post/2/)  
+FRC Rhapsody by Parsons Vikings Team 1448... [more](#/post/3/)  
 
 ---
 
-# [First Robotics is not only for STEM students](#/post/1/)
+# [*FIRST* Robotics is not only for STEM students](#/post/2/)
 *Posted by **Patrick Kubiak** on November 29, 2016*  
-First Robotics goes beyond robot building. While building a robot for the competition is... [more](#/post/1/)  
+*FIRST* Robotics goes beyond robot building. While building a robot for the competition is... [more](#/post/2/)  
+
+---
+
+# [FIRST things FIRST. What is *FIRST*?](#/post/1/)
+*Posted by **Patrick Kubiak** on November 29, 2016*  
+Before starting high school I never even heard about *FIRST* Robotics. Even though I have been building robots ever since I could walk, I have not heard about high school kids building robots... [more](#/post/1/)  
