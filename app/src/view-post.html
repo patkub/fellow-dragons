@@ -14,13 +14,13 @@
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <!-- parse markdown -->
-            <zero-md file="[[post]]" id="post">
+            <zero-md file="[[post]]">
               <style>
                 .md-html h1 {
                   color: #0066b3;
                 }
               </style>
-              <div class="md-html" id="postHtml"></div>
+              <div class="md-html"></div>
             </zero-md>
 
             <!-- pager -->
@@ -51,14 +51,9 @@
         }
       },
       observers: [
-        '_routePageChanged(routeData)',
-        '_viewChanged(routeData.view)'
+        '_routePageChanged(routeData)'
       ],
-      _viewChanged: function(view) {
-        this.$.postHtml.innerHTML = this.$.postHtml.innerHTML;
-      },
       _routePageChanged: function(routeData) {
-        this.$.postHtml.innerHTML = this.$.postHtml.innerHTML;
         if (routeData.post) {
           this.post = 'posts/post_' + routeData.post + '.md';
           this.scrollIntoView();
