@@ -4,6 +4,6 @@
   height="360px"
   width="640px"
   rel="0"
-  start="5"
+  start="0"
   autoplay="0">
 </google-youtube>
