@@ -15,10 +15,4 @@ Before starting high school I never even heard about *FIRST* Robotics. Even thou
 
 # [*FIRST* Robotics is not only for STEM students](#/post/2/)
 *Posted by **Patrick Kubiak** on November 29, 2016*  
-*First* Robotics goes beyond robot building. While building a robot for the competition is the ultimate goal, there is a lot more that students are involved in... [more](#/post/2/)  
-
----
-
-# [FRC Rhapsody by Parsons Vikings Team 1448](#/post/3/)
-*Posted by **Patrick Kubiak** on November 29, 2016*  
-FRC Rhapsody by Parsons Vikings Team 1448... [more](#/post/3/)  
+*First* There is a misconception among people that robotics is only for geeks, math wizards, and generally science oriented people. It is a widely-accepted phenomenon that building robots is... [more](#/post/2/)  
