@@ -6,7 +6,10 @@ Before starting high school I never even heard about *FIRST* Robotics. Even thou
 
 *FIRST* is an acronym: For Inspiration and Recognition of Science and Technology
 
-*FIRST* is a not-for-profit organization founded by inventor Dean Kamen in 1989. Kamen, who is known for inventing the *FIRST* portable insulin pump and Segway, began *FIRST* to get kids excited about math and engineering. The mission of *FIRST* is to inspire young students to pursue science, engineering and technology careers. *FIRST* does this by engaging students in mentor-based programs that build science, engineering and technology skills and fostering self-confidence, communication and leadership skills.
+*FIRST* is a not-for-profit organization founded by inventor Dean Kamen in 1989. Kamen, who is known for inventing the *FIRST* portable insulin pump and Segway, began *FIRST* to get kids excited about math and engineering. The mission of *FIRST* is to inspire young students to pursue science, engineering and technology careers. *FIRST* does this by engaging students in mentor-based programs that build science, engineering and technology skills and fostering self-confidence, communication and leadership skills.  
+
+> "To transform our culture by creating a world where science and technology are celebrated and where young people dream of becoming science and technology leaders."  
+--Dean Kamen
 
 <google-youtube
   video-id="Pw2HtnuCodQ"
