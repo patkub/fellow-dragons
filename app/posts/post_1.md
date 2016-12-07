@@ -4,11 +4,11 @@ Before starting high school I never even heard about *FIRST* Robotics. Even thou
 
 # FIRST things FIRST. What is *FIRST*?
 
-*FIRST* is an acronym: For Inspiration and Recognition of Science and Technology
+*FIRST* is an organization which was founded in 1989 by Dean Kamen, inventor of the Segway Human Transporter, the first portable insulin pump, and (most recently) the Slingshot water purifier. Kamen’s idea is to get kids excited about math and engineering the same way they are excited about sports. He wants *FIRST* to inspire young students to pursue science, engineering and technology careers. *FIRST* does this by engaging students in programs that build science, engineering and technology skills as well as foster self-confidence, communication and leadership skills.
 
-*FIRST* is a non-profit organization founded by inventor Dean Kamen in 1989. Kamen, who is known for inventing the first portable insulin pump and Segway, began *FIRST* to get kids excited by math and engineering the same way kids are excited about sports.
+*FIRST* is comprised of four programs:  *FIRST* LEGO League Junior for ages 6-9, *FIRST* LEGO League for ages 9-14, *FIRST* Tech Challenge for grades 7-12, and *FIRST* Robotics Competition for high school students.
 
-The mission of *FIRST* is to inspire young students to pursue science, engineering and technology careers. *FIRST* does this by engaging students in mentor-based programs that build science, engineering and technology skills and fostering self-confidence, communication and leadership skills.
+Dean Kamen's goal is use these programs to popularize math and science the same way sports popularize athletics.
 
 > "To transform our culture by creating a world where science and technology are celebrated and where young people dream of becoming science and technology leaders."  
 --Dean Kamen
@@ -21,5 +21,3 @@ The mission of *FIRST* is to inspire young students to pursue science, engineeri
   start="0"
   autoplay="0">
 </google-youtube>
-
-Dean Kamen's goal is to popularize math and science the same way sports popularize athletics. He does that through FRC.
