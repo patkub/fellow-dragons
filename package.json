@@ -1,11 +1,13 @@
 {
-  "name": "blog",
+  "name": "fellow_dragons",
+  "description": "A Blog about FIRST Robotics",
   "version": "1.0.0",
   "author": "Patrick Kubiak",
   "license": "MIT",
+  "homepage": "www.antuple.net",
   "repository": {
     "type": "git",
-    "url": "https://github.com/patkub/blog.git"
+    "url": "https://github.com/patkub/fellow-dragons.git"
   },
   "devDependencies": {
     "gulp": "^3.9.1",

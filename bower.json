@@ -1,12 +1,16 @@
 {
-  "name": "Blog",
-  "description": "A blog for class",
-  "main": "bower.json",
+  "name": "fellow_dragons",
+  "description": "A Blog about FIRST Robotics",
+  "homepage": "www.antuple.net",
   "authors": [
     "Patrick Kubiak"
   ],
   "license": "MIT",
-  "homepage": "www.antuple.net",
+  "main": "bower.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patkub/fellow-dragons.git"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
