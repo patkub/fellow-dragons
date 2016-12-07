@@ -22,3 +22,14 @@ FRC stands for *FIRST* Robotics Competition. *FIRST* refers to the *FIRST* Robot
 # [*FIRST* Robotics is not only for STEM students](#/post/3/)
 *Posted by **Patrick Kubiak** on December 6, 2016*  
 *First* There is a misconception among people that robotics is only for geeks, math wizards, and generally science oriented people. It is a widely-accepted phenomenon that building robots is... [more](#/post/3/)  
+
+---
+
+# [Build Season](#/post/4/)
+Each year, on the first Saturday in January, the build season starts with a “Kickoff” event broadcasted all over the world... [more](#/post/4/)  
+
+---
+
+# [The Rules of the Game](#/post/5/)
+Coming soon...
+[more](#/post/5/)  
