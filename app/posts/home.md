@@ -15,7 +15,7 @@ Before starting high school I never even heard about *FIRST* Robotics. Even thou
 
 # [*FIRST* Robotics is not only for STEM students](#/post/2/)
 *Posted by **Patrick Kubiak** on November 29, 2016*  
-*FIRST* Robotics goes beyond robot building. While building a robot for the competition is... [more](#/post/2/)  
+*First* Robotics goes beyond robot building. While building a robot for the competition is the ultimate goal, there is a lot more that students are involved in... [more](#/post/2/)  
 
 ---
 
