@@ -15,7 +15,7 @@ Before starting high school I never even heard about *FIRST* Robotics. Even thou
 
 # [And Second. What is FRC?](#/post/2/)
 *Posted by **Patrick Kubiak** on November 29, 2016*  
-FRC stands for *FIRST* Robotics Competition. *FIRST* refers to the *FIRST* Robotics Competition as a... [more](#/post/1/)  
+FRC stands for *FIRST* Robotics Competition. *FIRST* refers to the *FIRST* Robotics Competition as a... [more](#/post/2/)  
 
 ---
 
