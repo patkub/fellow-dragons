@@ -1,4 +1,4 @@
-# *FIRST* Robotics
+# *FIRST* Robotics  
 
 Before starting high school I never even heard about *FIRST* Robotics. Even though I have been building robots ever since I could walk, I have not heard about high school kids building robots. And not just building any robots, but robots that compete and play matches. Obviously, I am slightly exaggerating with when I got involved into robot creation, but I started with Lego Mindstorms pretty early. My robots were simple and miniature compared to what gets built by *FIRST* Robotics teams in high schools all around the world. But before I talk about that more, let’s start from the beginning…
 
@@ -8,7 +8,22 @@ Before starting high school I never even heard about *FIRST* Robotics. Even thou
 
 *FIRST* is comprised of four programs:  *FIRST* LEGO League Junior for ages 6-9, *FIRST* LEGO League for ages 9-14, *FIRST* Tech Challenge for grades 7-12, and *FIRST* Robotics Competition for high school students.
 
-Dean Kamen's goal is use these programs to popularize math and science the same way sports popularize athletics.
+<figure>
+  <table>
+    <tr>
+      <td><img src="img/FIRSTLegoJR_IconVert_RGB.gif"></img></td>
+      <td><img src="img/FIRSTLego_IconVert_RGB.gif"></img></td>
+      <td><img src="img/FIRSTTech_IconVert_RGB.gif"></img></td>
+      <td><img src="img/FIRSTRobotics_IconVert_RGB.gif"></img></td>
+    </tr>
+  </table>
+
+  <figcaption>
+    <sup>([*FIRST Brand and Logo Files*](http://www.firstinspires.org/brand "FIRST Brand and Logo Files"))</sup>
+  </figcaption>
+</figure>
+
+Dean Kamen's goal is to use these programs to popularize math and science the same way sports popularize athletics.
 
 > "To transform our culture by creating a world where science and technology are celebrated and where young people dream of becoming science and technology leaders."  
 --Dean Kamen

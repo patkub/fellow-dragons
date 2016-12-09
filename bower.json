@@ -27,6 +27,7 @@
     "zero-md": "zerodevx/zero-md#0.2.0",
     "bootstrap": "^3.3.7",
     "jquery": "^3.1.1",
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "iron-image": "PolymerElements/iron-image#^1.2.5"
   }
 }
