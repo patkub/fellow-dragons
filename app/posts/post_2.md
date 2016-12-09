@@ -1,7 +1,7 @@
 # And Second. What is FRC?
 
 <figure>
-  <img style="width:100%;" src="img/FIRSTRobotics_iconHorz_RGB.gif"></img>
+  <img src="img/FIRSTRobotics_iconHorz_RGB.gif"></img>
   <figcaption><sup>([*FIRST Brand and Logo Files*](http://www.firstinspires.org/brand "FIRST Brand and Logo Files"))</sup></figcaption>
 </figure>
 
