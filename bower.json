@@ -29,5 +29,9 @@
     "jquery": "^3.1.1",
     "font-awesome": "^4.7.0",
     "iron-image": "PolymerElements/iron-image#^1.2.5"
+  },
+  "resolutions": {
+    "polymer": "^1.7.0",
+    "webcomponentsjs": "0.7.23"
   }
 }
