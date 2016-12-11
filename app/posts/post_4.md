@@ -24,3 +24,5 @@ Right after the kickoff live stream, the team discusses strategies and comes up 
 The mechanical group builds the actual components of the robot, and the programming group spends their time coding for the robot. The goal is to complete the robot before the end of the six weeks, so that there is enough time for testing and driver practice. To accomplish that, students work 3 to 6 hours every day after school, as well as all days on weekends. Time increases as the deadline approaches. It is not uncommon for some students to work till midnight the last week of the build season. As long as there are adult members willing to stay that long, the students will too.
 
 At the end of six weeks, teams must bag up their robots and are not allowed to work on them until the day of the [competition](#/post/5/).
+
+<img style="width: 100%;" src="img/bag.jpg" />
