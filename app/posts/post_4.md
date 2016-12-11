@@ -12,8 +12,6 @@ Each year the season starts with a Kickoff event broadcasted live all over the w
   autoplay="0">
 </google-youtube>
 
-**picture of 1991 kickoff here**
-
 Teams gather at different sites to watch the broadcast. Some at bigger events at local universities which host the kickoff for the area teams and some, like Team 1991 hold their own events. Every year University of Hartford opens its doors to our team to have a kickoff party. Mentors, parents and students gather in the auditorium and watch the broadcast. It’s a great time for socializing and welcoming freshman to the team.  
 
 Right after the game reveal broadcast, the team opens a package from *FIRST* which contains the new Kit of Parts made up of motors, batteries, a control system, construction materials and software registration details. This is where the fun begins...  
