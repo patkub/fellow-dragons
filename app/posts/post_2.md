@@ -1,4 +1,5 @@
 # And Second. What is FRC?
+*Posted by **Patrick Kubiak** on December 3, 2016*  
 
 <figure>
   <img src="img/FIRSTRobotics_iconHorz_RGB.gif"></img>

@@ -5,7 +5,7 @@ There is a misconception among people that robotics is only for geeks, math wiza
 
 First of all, the team operates like a business and as in a real business there are numerous positions available. It is not just designing, building robots and then competing, but it also involves, fundraising, getting sponsors, marketing, managing the budget and event planning. The business aspect of the team helps students acquire many professional skills.
 
-The team is always in need of writers to help with information on the website, drafting letters to sponsors, and to chronicle the events the team is involved in. Photographers and those with a talent for video making and editing are also welcome on the team. Many teams are very creative about promoting their team and what they do. Just listen to FRC Rhapsody, Parsons Vikings Team 1448's version of Queen’s Bohemian Rhapsody. It’s the quintessential *FIRST* Robotics Competition.
+Second, the team is always in need of writers to help with information on the website, drafting letters to sponsors, and to chronicle the events the team is involved in. Photographers and those with a talent for video making and editing are also welcome on the team. Many teams are very creative about promoting their team and what they do. Just listen to FRC Rhapsody, Parsons Vikings Team 1448's version of Queen’s Bohemian Rhapsody. It’s the quintessential *FIRST* Robotics Competition.
 
 <google-youtube
   video-id="NX2kR-L0w60"

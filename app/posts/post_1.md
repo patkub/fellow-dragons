@@ -1,4 +1,5 @@
-# *FIRST* Robotics  
+# *FIRST* Robotics
+*Posted by **Patrick Kubiak** on November 29, 2016*  
 
 Before starting high school I never even heard about *FIRST* Robotics. Even though I have been building robots ever since I could walk, I have not heard about high school kids building robots. And not just building any robots, but robots that compete and play matches. Obviously, I am slightly exaggerating with when I got involved into robot creation, but I started with Lego Mindstorms pretty early. My robots were simple and miniature compared to what gets built by *FIRST* Robotics teams in high schools all around the world. But before I talk about that more, let’s start from the beginning…
 
