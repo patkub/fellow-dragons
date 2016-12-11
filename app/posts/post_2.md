@@ -25,7 +25,7 @@ Challenges vary greatly from year to year. For example, in 2013 the objective wa
 
 Even though the game is different every year, certain elements remain the same. There are always two alliances of three robots each competing against each other on a small, enclosed field. The robots are based off of common kits to which each team adds its own modifications and designs.  
 
-The event is as exciting as any sports event can be with hoards of kids dressed and painted in their team colors, banging away on noisemakers, screaming themselves hoarse with chants, dancing “cupid shuffle” and “cha-cha slide”.  
+The event is as exciting as any sports event can be with hordes of kids dressed and painted in their team colors, banging away on noisemakers, screaming themselves hoarse with chants, dancing “cupid shuffle” and “cha-cha slide”.  
 
 But according to Dean Kamen, the competition is not about robots. *FIRST* is not just about building robots. Robots are nothing but the vehicles; vehicles to exploring science, engineering and technology.  
 
