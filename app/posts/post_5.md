@@ -9,6 +9,15 @@ The day before the competition the teams have the opportunity to take their robo
 
 Regional competitions are usually two days long. On the first day, teams compete in qualification matches. Teams play on randomly assigned alliances of three robots, each scoring points. Each match begins with a 15-second autonomous period, where the robots follow pre-programmed instructions and have no human input. This is a challenging task, and not every team is able to program their robot well enough to gain valuable points available during this time. After autonomous, “drivers” gain control of the robot. Standing behind a plexiglass window, with hands on the joysticks, they steer the robot though obstacles, trying to score points by performing the tasks specific to the year’s game. As you can imagine, this is not an easy task. A lot depends on the driver’s skills. The best designed robot will not score any points, nor will they win the game if the driver fails to perform.
 
+<google-youtube
+  video-id="agMl_pSAuI8"
+  height="360px"
+  width="100%"
+  rel="0"
+  start="0"
+  autoplay="0">
+</google-youtube>
+
 The qualification matches end before lunch on the second day of the competition. Teams are ranked based on their individual performances. The top eight ranked teams are the actors in the alliance selection, a turning point in the competition.  
 
 Eagle Robotics Pick Me Maybe parody.
