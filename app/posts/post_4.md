@@ -1,4 +1,5 @@
 # Build Season
+*Posted by **Patrick Kubiak** on December 8, 2016*  
 
 The *FIRST* Robotics build season is an intense six weeks of designing, building, and testing a robot. Teams are challenged to build their robot from a [Kit of Parts](http://www.firstinspires.org/resource-library/frc/2016-kit-of-parts) with very limited instructions.
 

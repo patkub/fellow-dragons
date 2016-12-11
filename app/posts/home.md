@@ -26,10 +26,12 @@ FRC stands for *FIRST* Robotics Competition. *FIRST* refers to the *FIRST* Robot
 ---
 
 # [Build Season](#/post/4/)
+*Posted by **Patrick Kubiak** on December 8, 2016*  
 Each year, on the first Saturday in January, the build season starts with a “Kickoff” event broadcasted all over the world... [more](#/post/4/)  
 
 ---
 
-# [The Rules of the Game](#/post/5/)
-Coming soon...
+# [The Competition](#/post/5/)
+*Posted by **Patrick Kubiak** on December 10, 2016*  
+At the culmination of the build season, each team attends regional competitions that take place at different sites all over the world....
 [more](#/post/5/)  
