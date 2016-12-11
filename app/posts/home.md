@@ -34,3 +34,9 @@ The *FIRST* Robotics build season is an intense six weeks of designing, building
 # [The Competition](#/post/5/)
 *Posted by **Patrick Kubiak** on December 10, 2016*  
 At the culmination of the build season, each team attends regional competitions that take place at different sites all over the world... [more](#/post/5/)  
+
+---
+
+# [Beyond High School](#/post/6/)
+*Posted by **Patrick Kubiak** on December 10, 2016*  
+"I'm going to miss the excitement of finishing the robot by midnight on stop build day, I'm gonna miss spending long Saturdays... [more](#/post/6/)
