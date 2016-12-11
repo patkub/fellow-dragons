@@ -1,5 +1,5 @@
 # *FIRST* Robotics is not only for STEM students
-*Posted by **Patrick Kubiak** on November 29, 2016*  
+*Posted by **Patrick Kubiak** on December 6, 2016*  
 
 There is a misconception among people that robotics is only for geeks, math wizards, and generally science oriented people. It is a widely-accepted phenomenon that building robots is reserved for STEM inclined students. But let me tell you, it is not the case with *FIRST*. *FIRST* Robotics goes beyond robot building. While building a robot for the competition is the ultimate goal, there is a lot more that students are involved in. It is open to and welcomes a variety of talents.
 
