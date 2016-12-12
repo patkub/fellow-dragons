@@ -12,10 +12,26 @@ Before starting high school I never even heard about *FIRST* Robotics. Even thou
 <figure>
   <table>
     <tr>
-      <td><img src="img/FIRSTLegoJR_IconVert_RGB.gif"></img></td>
-      <td><img src="img/FIRSTLego_IconVert_RGB.gif"></img></td>
-      <td><img src="img/FIRSTTech_IconVert_RGB.gif"></img></td>
-      <td><img src="img/FIRSTRobotics_IconVert_RGB.gif"></img></td>
+      <td>
+        <a href="http://www.firstinspires.org/robotics/flljr">
+          <img src="img/FIRSTLegoJR_IconVert_RGB.gif"></img>
+        </a>
+      </td>
+      <td>
+        <a href="http://www.firstinspires.org/robotics/fll">
+          <img src="img/FIRSTLego_IconVert_RGB.gif"></img>
+        </a>
+      </td>
+      <td>
+        <a href="http://www.firstinspires.org/robotics/ftc">
+          <img src="img/FIRSTTech_IconVert_RGB.gif"></img>
+        </a>
+      </td>
+      <td>
+        <a href="http://www.firstinspires.org/robotics/frc">
+          <img src="img/FIRSTRobotics_IconVert_RGB.gif"></img>
+        </a>
+      </td>
     </tr>
   </table>
 
