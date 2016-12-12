@@ -5,7 +5,7 @@ Before starting high school I never even heard about *FIRST* Robotics. Even thou
 
 # FIRST things FIRST. What is *FIRST*?
 
-[*FIRST*](http://www.firstinspires.org/) is an organization which was founded in 1989 by Dean Kamen, inventor of the [Segway Human Transporter](http://www.segway.com/), the first portable insulin pump, and (most recently) the Slingshot water purifier. Kamen’s idea is to get kids excited about math and engineering the same way they are excited about sports. He wants *FIRST* to inspire young students to pursue science, engineering and technology careers. *FIRST* does this by engaging students in programs that build science, engineering and technology skills as well as foster self-confidence, communication and leadership skills.
+[*FIRST*](http://www.firstinspires.org/) is an organization which was founded in 1989 by [Dean Kamen](http://www.firstinspires.org/about/leadership/dean-kamen/), inventor of the [Segway Human Transporter](http://www.segway.com/), the first portable insulin pump, and (most recently) the Slingshot water purifier. Kamen’s idea is to get kids excited about math and engineering the same way they are excited about sports. He wants *FIRST* to inspire young students to pursue science, engineering and technology careers. *FIRST* does this by engaging students in programs that build science, engineering and technology skills as well as foster self-confidence, communication and leadership skills.
 
 *FIRST* is comprised of four programs:  *FIRST* LEGO League Junior for ages 6-9, *FIRST* LEGO League for ages 9-14, *FIRST* Tech Challenge for grades 7-12, and *FIRST* Robotics Competition for high school students.
 

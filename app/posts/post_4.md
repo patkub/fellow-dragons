@@ -3,7 +3,7 @@
 
 The *FIRST* Robotics build season is an intense six weeks of designing, building, and testing a robot. Teams are challenged to build their robot from a [Kit of Parts](http://www.firstinspires.org/resource-library/frc/2016-kit-of-parts) with very limited instructions.
 
-Each year the season starts with a Kickoff event broadcasted live all over the world on the first Saturday of the year. Dean Kamen and Woodie Flowers, with the help of others, reveal the challenges and objectives of this year's game. You can watch last season's kickoff below.
+Each year the season starts with a Kickoff event broadcasted live all over the world on the first Saturday of the year. [Dean Kamen](http://www.firstinspires.org/about/leadership/dean-kamen/) and [Woodie Flowers](http://www.firstinspires.org/about/leadership/dr-woodie-flowers), with the help of others, reveal the challenges and objectives of this year's game. You can watch last season's kickoff below.
 
 <google-youtube
   video-id="3lBiwIt2Xh8"

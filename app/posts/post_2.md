@@ -27,7 +27,7 @@ Even though the game is different every year, certain elements remain the same. 
 
 The event is as exciting as any spectator sport event can be, with hordes of kids dressed in their team colors, screaming themselves hoarse, dancing “cupid shuffle” and “cha-cha slide”.  
 
-But according to Dean Kamen, the competition is not about robots. *FIRST* is not just about building robots. Robots are nothing but the vehicles; vehicles to exploring science, engineering and technology.  
+But according to [Dean Kamen](http://www.firstinspires.org/about/leadership/dean-kamen/), the competition is not about robots. *FIRST* is not just about building robots. Robots are nothing but the vehicles; vehicles to exploring science, engineering and technology.  
 
 <google-youtube
   video-id="44dzZfP8-Mc"
