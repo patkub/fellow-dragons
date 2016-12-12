@@ -37,11 +37,11 @@ During alliance selection, the top eight teams each choose two more teams to for
 
 Choosing the right teams for your alliance is extremely important, as well as being chosen to be a part of an alliance. It may determine team’s odds of winning. Because a large part of success in competitions is based on the alliances that are selected before eliminations, scouting and building relationships with other teams is extremely important. During the competition, the scouting group talks to individual teams about their robot and seeks to build relationships with other teams at a competition. Using a computer app, scouters also record and analyze data about teams to find the most compatible team to form an alliance for the finals.  
 
-From the regionals, the winning alliance of three teams goes on to the district competition, where matches are played in the same manner as at the regionals. From the district competitions held all over the world, the winning teams continue on to the World Championship held in St Lois, Missouri.
+From the regionals, the winning alliance of three teams goes on to the district competition, where matches are played in the same manner as at the regionals. From the district competitions held all over the world, the winning teams continue on to the *FIRST* Championship held in St Lois, Missouri.
 
 <figure>
   <img style="width: 100%;" src="img/stlouis.jpg" />
   <figcaption>My team under the St. Louis Gateway Arch</figcaption>
 </figure>
 
-Not all teams have to win the district competition to go to St Lois. Some teams get an automatic entry to the World Championship. These include all the teams that won the prestigious Chairman’s Award, the current and previous year Rookie All-Star Award Winners, Engineering Inspiration Award winners and First Championship winners from the previous year. For each year a team doesn’t make it to Worlds, they get an entry into a random drawing. My team, Dragons 1991, made the trip to St. Lois last year through the wild card selection.  
+Not all teams have to win the district competition to go to St Lois. Some teams get an automatic entry to the *FIRST* Championship. These include all the teams that won the prestigious Chairman’s Award, the current and previous year Rookie All-Star Award Winners, Engineering Inspiration Award winners and *FIRST* Championship winners from the previous year. For each year a team doesn’t make it to St. Louis, they get an entry into a random drawing. My team, Dragons 1991, made the trip to St. Lois last year through the wild card selection.  
