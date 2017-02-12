@@ -33,7 +33,7 @@ gulp.task('less', function() {
 
 // Minify compiled CSS
 gulp.task('minify-css', ['less'], function() {
-    return gulp.src('app/css/clean-blog.css')
+    return gulp.src('css/clean-blog.css')
       .pipe(cleanCSS({ compatibility: 'ie8' }))
       .pipe(rename({ suffix: '.min' }))
       .pipe(gulp.dest('css'));
