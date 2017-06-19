@@ -13,7 +13,7 @@
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.0.2",
     "gulp-htmlmin": "^3.0.0",
-    "gulp-less": "^3.1.0",
+    "gulp-less": "^3.3.2",
     "gulp-minify-inline": "^0.2.1",
     "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.5.4",
