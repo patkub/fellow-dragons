@@ -1,4 +1,6 @@
 # Fellow Dragons
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/patkub/fellow-dragons.svg)](https://greenkeeper.io/)
 A blog built with [Polymer](https://www.polymer-project.org/)  
 **\#UseThePlatform to build a better web**  
 
