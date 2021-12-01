@@ -46,6 +46,12 @@
         this.page = page || 'home';
         this.scrollIntoView();
         window.scrollBy(0, -50);
+        // pause youtube videos
+        const ytEls = document.getElementsByTagName("google-youtube");
+        const ytElsList = Array.prototype.slice.call(ytEls);
+        ytElsList.forEach(function(el) {
+          el.pause();
+        });
       }
     });
   </script>

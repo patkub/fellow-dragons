@@ -65,6 +65,12 @@
         '_routePageChanged(routeData)'
       ],
       _routePageChanged: function(routeData) {
+        // pause youtube videos
+        const ytEls = document.getElementsByTagName("google-youtube");
+        const ytElsList = Array.prototype.slice.call(ytEls);
+        ytElsList.forEach(function(el) {
+          el.pause();
+        });
         if (routeData.post) {
           this.post = 'posts/post_' + routeData.post + '.md';
           this.scrollIntoView();
