@@ -12,7 +12,7 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-clean-css": "^3.0.2",
-    "gulp-htmlmin": "^3.0.0",
+    "gulp-htmlmin": "^5.0.1",
     "gulp-less": "^5.0.0",
     "gulp-minify-inline": "^1.1.0",
     "gulp-rename": "^2.0.0",
