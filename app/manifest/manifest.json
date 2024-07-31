@@ -1,7 +1,7 @@
 {
   "name": "Fellow Dragons",
   "short_name": "Fellow Dragons",
-  "start_url": "/sites/fellowdragons/index.html",
+  "start_url": "https://patkub.github.io/fellow-dragons/",
   "display": "standalone",
   "theme_color": "#0066b3",
   "background_color": "#0066b3",
