@@ -37,8 +37,8 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["/critical.html","be741c49d10c4da4826c9d021adc5861"],["/deferred.html","a92cadd37129ecd40464eb7011755d1b"],["/fonts/FontAwesome.otf","0d2717cd5d853e5c765ca032dfd41a4d"],["/fonts/fontawesome-webfont.eot","674f50d287a8c48dc19ba404d20fe713"],["/fonts/fontawesome-webfont.svg","912ec66d7572ff821749319396470bde"],["/fonts/fontawesome-webfont.ttf","b06871f281fee6b241d60582ae9369b9"],["/fonts/fontawesome-webfont.woff","fee66e712a8a08eef5805a46892932ad"],["/fonts/fontawesome-webfont.woff2","af7ae505a9eed503f8b8e6982036873e"],["/img/FIRSTicon_RGB_withTM.png","4068bdf798d0dc5fa7d0f8315f59c26a"],["/img/bag.jpg","94a2833f0093cc27f00fb43d70f87630"],["/img/home-bg.jpg","3db59a840d79569089b54d9e1e0b9806"],["/img/pits.jpg","41abfcd7f9edc3db769f1f642267745f"],["/img/stlouis.jpg","bb3a86f0afe106b2a8960a90d3317afc"],["/index.html","2c0800386d692b66feedd60942c3f1b7"],["/js/webcomponents-lite.min.js","32b5a9b7ada86304bec6b43d3f2194f0"],["/manifest/favicon.ico","c06db25cd353a2d05e39d5c803340b8c"],["/manifest/images/icon-144x144.png","c52e490aca6248038fe0171c2ddf0b36"],["/manifest/images/icon-192x192.png","4a920271f35b93dac5f2cf59580c35ab"],["/manifest/images/icon-48x48.png","fff49e9f5cc64ef9d5abfa4b4259f6f0"],["/manifest/images/icon-512x512.png","6ebc245041d955da18497a39ff8ced3c"],["/manifest/images/icon-72x72.png","d55bc079dfc810555ee998c8ab291099"],["/manifest/images/icon-96x96.png","4097b62173b0a08c35ed628606e3df1f"],["/manifest/manifest.json","86386289504cd47173a91741f3b4d586"],["/posts/about.md","b8968eaafa7128e5280b5705260da7d2"],["/posts/home.md","5f48572f30d6a13b5105c85226d9d9bd"],["/posts/post_1.md","592695e1f407bd021146f5ddeff58ace"],["/posts/post_2.md","dec959936e1e8c2a4216921111a9cab4"],["/posts/post_3.md","9fcf40da44062141fdc5556fa0fcd177"],["/posts/post_4.md","0d9342de5b46ed78a88bf47329a87d7c"],["/posts/post_5.md","3f6d293e7aa2749ea14b3709ab325245"],["/posts/post_6.md","d3538f3b32bb5615931a573a011ef4eb"]];
-var cacheName = 'sw-precache-v2--' + (self.registration ? self.registration.scope : '');
+var precacheConfig = [["/critical.html","ab9983eea1d219a628539ae120197062"],["/deferred.html","7f708a831531be54129732d35baaa48b"],["/fonts/FontAwesome.otf","0d2717cd5d853e5c765ca032dfd41a4d"],["/fonts/fontawesome-webfont.eot","674f50d287a8c48dc19ba404d20fe713"],["/fonts/fontawesome-webfont.svg","912ec66d7572ff821749319396470bde"],["/fonts/fontawesome-webfont.ttf","b06871f281fee6b241d60582ae9369b9"],["/fonts/fontawesome-webfont.woff","fee66e712a8a08eef5805a46892932ad"],["/fonts/fontawesome-webfont.woff2","af7ae505a9eed503f8b8e6982036873e"],["/img/FIRSTicon_RGB_withTM.png","4068bdf798d0dc5fa7d0f8315f59c26a"],["/img/bag.jpg","94a2833f0093cc27f00fb43d70f87630"],["/img/home-bg.jpg","3db59a840d79569089b54d9e1e0b9806"],["/img/pits.jpg","41abfcd7f9edc3db769f1f642267745f"],["/img/stlouis.jpg","bb3a86f0afe106b2a8960a90d3317afc"],["/index.html","2c0800386d692b66feedd60942c3f1b7"],["/js/webcomponents-lite.min.js","32b5a9b7ada86304bec6b43d3f2194f0"],["/manifest/favicon.ico","c06db25cd353a2d05e39d5c803340b8c"],["/manifest/images/icon-144x144.png","c52e490aca6248038fe0171c2ddf0b36"],["/manifest/images/icon-192x192.png","4a920271f35b93dac5f2cf59580c35ab"],["/manifest/images/icon-48x48.png","fff49e9f5cc64ef9d5abfa4b4259f6f0"],["/manifest/images/icon-512x512.png","6ebc245041d955da18497a39ff8ced3c"],["/manifest/images/icon-72x72.png","d55bc079dfc810555ee998c8ab291099"],["/manifest/images/icon-96x96.png","4097b62173b0a08c35ed628606e3df1f"],["/manifest/manifest.json","c8afa443c3eaebb2bb11008c6486a429"],["/posts/about.md","b8968eaafa7128e5280b5705260da7d2"],["/posts/home.md","5f48572f30d6a13b5105c85226d9d9bd"],["/posts/post_1.md","592695e1f407bd021146f5ddeff58ace"],["/posts/post_2.md","dec959936e1e8c2a4216921111a9cab4"],["/posts/post_3.md","9fcf40da44062141fdc5556fa0fcd177"],["/posts/post_4.md","0d9342de5b46ed78a88bf47329a87d7c"],["/posts/post_5.md","3f6d293e7aa2749ea14b3709ab325245"],["/posts/post_6.md","d3538f3b32bb5615931a573a011ef4eb"]];
+var cacheName = 'sw-precache-v3--' + (self.registration ? self.registration.scope : '');
 
 
 var ignoreUrlParametersMatching = [/^utm_/];
@@ -53,6 +53,28 @@ var addDirectoryIndex = function(originalUrl, index) {
     return url.toString();
   };
 
+var cleanResponse = function(originalResponse) {
+    // If this is not a redirected response, then we don't have to do anything.
+    if (!originalResponse.redirected) {
+      return Promise.resolve(originalResponse);
+    }
+
+    // Firefox 50 and below doesn't support the Response.body stream, so we may
+    // need to read the entire body to memory as a Blob.
+    var bodyPromise = 'body' in originalResponse ?
+      Promise.resolve(originalResponse.body) :
+      originalResponse.blob();
+
+    return bodyPromise.then(function(body) {
+      // new Response() is happy when passed either a stream or a Blob.
+      return new Response(body, {
+        headers: originalResponse.headers,
+        status: originalResponse.status,
+        statusText: originalResponse.statusText
+      });
+    });
+  };
+
 var createCacheKey = function(originalUrl, paramName, paramValue,
                            dontCacheBustUrlsMatching) {
     // Create a new URL object to avoid modifying originalUrl.
@@ -61,7 +83,7 @@ var createCacheKey = function(originalUrl, paramName, paramValue,
     // If dontCacheBustUrlsMatching is not set, or if we don't have a match,
     // then add in the extra cache-busting URL parameter.
     if (!dontCacheBustUrlsMatching ||
-        !(url.toString().match(dontCacheBustUrlsMatching))) {
+        !(url.pathname.match(dontCacheBustUrlsMatching))) {
       url.search += (url.search ? '&' : '') +
         encodeURIComponent(paramName) + '=' + encodeURIComponent(paramValue);
     }
@@ -85,6 +107,8 @@ var isPathWhitelisted = function(whitelist, absoluteUrlString) {
 var stripIgnoredUrlParameters = function(originalUrl,
     ignoreUrlParametersMatching) {
     var url = new URL(originalUrl);
+    // Remove the hash; see https://github.com/GoogleChrome/sw-precache/issues/290
+    url.hash = '';
 
     url.search = url.search.slice(1) // Exclude initial '?'
       .split('&') // Split into an array of 'key=value' strings
@@ -134,10 +158,19 @@ self.addEventListener('install', function(event) {
           Array.from(urlsToCacheKeys.values()).map(function(cacheKey) {
             // If we don't have a key matching url in the cache already, add it.
             if (!cachedUrls.has(cacheKey)) {
-              return cache.add(new Request(cacheKey, {
-                credentials: 'same-origin',
-                redirect: 'follow'
-              }));
+              var request = new Request(cacheKey, {credentials: 'same-origin'});
+              return fetch(request).then(function(response) {
+                // Bail out of installation unless we get back a 200 OK for
+                // every request.
+                if (!response.ok) {
+                  throw new Error('Request for ' + cacheKey + ' returned a ' +
+                    'response with status ' + response.status);
+                }
+
+                return cleanResponse(response).then(function(responseToCache) {
+                  return cache.put(cacheKey, responseToCache);
+                });
+              });
             }
           })
         );
@@ -181,8 +214,8 @@ self.addEventListener('fetch', function(event) {
     // handlers a chance to handle the request if need be.
     var shouldRespond;
 
-    // First, remove all the ignored parameter and see if we have that URL
-    // in our cache. If so, great! shouldRespond will be true.
+    // First, remove all the ignored parameters and hash fragment, and see if we
+    // have that URL in our cache. If so, great! shouldRespond will be true.
     var url = stripIgnoredUrlParameters(event.request.url, ignoreUrlParametersMatching);
     shouldRespond = urlsToCacheKeys.has(url);
 
