@@ -22,6 +22,7 @@
     "sw-precache": "^5.2.1"
   },
   "dependencies": {
+    "bower": "^1.8.14",
     "merge-stream": "^2.0.0"
   }
 }
