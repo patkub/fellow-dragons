@@ -17,7 +17,7 @@
     "gulp-minify-inline": "^1.1.0",
     "gulp-rename": "^2.0.0",
     "gulp-replace": "^0.5.4",
-    "gulp-vulcanize": "^6.1.0",
+    "gulp-vulcanize": "^8.0.0",
     "gulp-watch": "^4.3.11",
     "sw-precache": "^5.2.1"
   },
